@@ -1,0 +1,151 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #879687;
+    color:white;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    padding:10px;
+  }
+
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.box-content{
+    background-color: #879687;
+    width: 600px;
+    border: 5px solid #5d725d;
+    padding: 50px;
+    margin: 20px;
+      
+}
+
+#caption {
+    color: #3f4b42;
+    padding: 10px;
+}
+
+
+nav a {
+    text-decoration: none; 
+    color: hwb(0 100% 0%); 
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: #536a5c;
+  }
+
+.image-display {
+    position: relative;
+    width: 350px;
+    height: auto;
+    border:2px solid #3f4b42; 
+    border-radius: 50px;
+  }
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-diet-display {
+    position: relative;
+    width: 250px;
+    height: auto;
+    border:2px solid #3f4b42; 
+    border-radius: 50px;
+}
+
+.image-diet-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+
+.menu-image {
+    position: absolute;
+    right: 1%; 
+    top: 0%; 
+    }
+
+.menu-image-display{
+    width: 30px;
+    height: auto;
+    border:2px solid #3f4b42; 
+    border-radius:150px;
+}
+
+.dropdown-image-display{
+    width: 600px;
+    height: auto;
+    border:2px solid #3f4b42; 
+    border-radius: 50px;
+}
+
+.image-container-overlap {
+    position: relative; 
+    display: inline;
+    width: 700px; 
+    height: 100px; 
+}
+
+.image-display-overlap {
+    position: relative;
+    width: 400px;
+    height: auto;
+    border:2px solid #3f4b42; 
+    border-radius: 50px;
+  }
+
+#photo1 {
+    z-index: 1; 
+    left: 50px;
+    top: 0px;
+
+}
+
+#photo2 {
+    z-index: 3; 
+    left: 0px; 
+    top: -50px;
+    
+}
+
+#photo3 {
+    z-index: 2; 
+    left: -30px; 
+    top: 30px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#show-hide-button:focus + #element-to-toggle {
+    display: block;
+}
+
+.button {
+    background-color: #3f4b42;
+    color:white;
+    height:40px;
+    border-radius:50px;
+}
+
+.button-image-display {
+    width: 50%;
+    height:auto;
+}
